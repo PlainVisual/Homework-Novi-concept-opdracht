@@ -1,4 +1,5 @@
 /* -- Fonts -- */
+
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,300;1,500&display=swap');
 
 /* -- Global styles - Variables -- */
@@ -58,7 +59,7 @@ body {
 font-family: var(--ff-fontfamily-roboto);
 font-weight: var(--ff-fontweight-normal);
 font-size: var(--ff-fontsize-p);
-color: var(--font-clr)
+color: var(--font-clr);
 -webkit-font-smoothing: antialiased;
 }
 
@@ -103,6 +104,25 @@ h3 {
   text-decoration: none;
 } */
 
+/* -- BUTTON STYLING GLOBAL -- */
+
+button {
+  cursor: pointer;
+}
+
+/* -- BUTTON STYLING HEADER -- */
+
+.cta-btn {
+
+}
+
+/* -- BUTTON STYLING CASE STUDIES -- */
+
+.project__btn {
+  
+}
+
+
 /* -- LAYOUT STYLING -- */
 
 .outer-container {
@@ -133,5 +153,10 @@ h3 {
 /* -- SECTION SERVICES -- */
 
 /* -- SECTION CTA FORM -- */
+
+/* form > .input:not(.cta-btn) {
+   width: 100%;
+} */
+
 
 /* -- SECTION FOOTER -- */
