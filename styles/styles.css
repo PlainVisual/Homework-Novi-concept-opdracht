@@ -111,9 +111,7 @@ a {
   text-decoration: none;
 }
 
-a:is(:hover, :focus) {
-  color:  var(--secondary-clr);
-}
+
 
 /* -- BUTTON STYLING GLOBAL -- */
 
@@ -164,7 +162,7 @@ a:is(:hover, :focus) {
 /* -- HEADER FLEX -- */
 
 header {
-  background-image: var(--gradient-clr);
+  background-image: url(../assets/noise-texture.png), var(--gradient-clr);
 }
 
 .header-outer {
@@ -206,6 +204,19 @@ nav ul > li {
   list-style: none;
 }
 
+a:focus {
+  color:  var(--secondary-clr);
+}
+
+nav ul > li a {
+  display: block;
+  color: #FFF;
+}
+
+nav ul > li:hover a {
+  color:  var(--secondary-clr);
+}
+
 nav ul > li {
   transition: var(--animation-transition);
 }
@@ -213,6 +224,7 @@ nav ul > li {
 nav ul > li:hover {
   transform: translateY(-0.18em);
 }
+
 
 /* -- HEADER CTA Flex -- */
 
@@ -493,7 +505,7 @@ nav ul > li:hover {
 
 .cta-outer {
   padding: var(--padding-section) 0;
-  background-image: var(--gradient-clr);
+  background-image: url(../assets/noise-texture.png), var(--gradient-clr);
   clip-path: polygon(0 0, 100% calc(0px + 6vw), 100% 100%, 0 100%);
 }
 
