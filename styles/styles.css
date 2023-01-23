@@ -618,10 +618,14 @@ footer {
   /* -- CTA BUTTON -- */
 
   .cta-btn-header, .cta-btn {
-    font-size: 0.68rem;
+    font-size: 0.75rem;
     padding: 1.25em 2.25em;
     border-radius: 2.25em;
     box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.288);
+  }
+
+  .cta-btn {
+    -webkit-appearance: none;
   }
  
  /* -- SECTION ABOUT US -- */
