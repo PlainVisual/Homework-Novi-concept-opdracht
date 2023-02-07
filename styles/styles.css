@@ -548,7 +548,7 @@ form {
 
 input:not(.cta-btn), textarea {
   width: 100%;
-  font-size: 0.86rem;
+  font-size: 1rem;
   padding: 1em;
   border-radius: 0.4em;
   border: unset;
@@ -578,7 +578,7 @@ footer {
   padding: 2em 0;
 }
 
-/* -- MEDIA QUERIES MOBILE-- */
+/* ----------------------------- MEDIA QUERIES MOBILE--------------------------- */
 
 @media only screen and (max-width: 480px)  {
   
